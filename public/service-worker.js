@@ -1,15 +1,16 @@
 const FILES_TO_CACHE = [
     "/",
-    "/index.html",
+    "index.html",
     "index.js",
     "service-worker.js",
+    "db.js",
     "manifest.webmanifest",
     "styles.css"
 ]
 
 
-const CACHE_NAME = "static-cache-v4";
-const DATA_CACHE_NAME = "data-cache-v4";
+const CACHE_NAME = "static-cache-v5";
+const DATA_CACHE_NAME = "data-cache-v5";
 
 // install
 self.addEventListener("install", function (evt) {
