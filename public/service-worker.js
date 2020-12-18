@@ -6,11 +6,14 @@ const FILES_TO_CACHE = [
     "db.js",
     "manifest.webmanifest",
     "styles.css",
-    //"/assets/images/icons/icon-192x192.png",
-    //"../models/transaction.js"
-    //"/routes/api.js"
-]
+    "assets/assets/images/icons/icon-72x72.png",
+    "assets/assets/images/icons/icon-96x96.png",
+    "assets/assets/images/icons/icon-128x128.png",
+    "assets/assets/images/icons/icon-192x192.png",
+    "assets/assets/images/icons/icon-384x384.png",
+    "assets/assets/images/icons/icon-512x512.png"
 
+]
 
 const CACHE_NAME = "static-cache-v6";
 const DATA_CACHE_NAME = "data-cache-v6";
